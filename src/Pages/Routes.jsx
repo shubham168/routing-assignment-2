@@ -1,14 +1,14 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Routes, Route, Outlet } from "react-router-dom";
 import { PrivateRoutes } from "../components/PrivateRoutes";
 import { Protect } from "../components/Protect";
 import { Welcome } from "../components/Welcome";
-import { AuthContext } from "../context/AuthContext";
+
 
 import { LoginPage } from "./LoginPage";
 import { SettingsPage } from "./SettingsPage";
 export const RoutesPage = () => {
-  const { isAuth } = useContext(AuthContext);
+
   return (
     <>
       <Routes>
