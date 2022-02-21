@@ -1,0 +1,16 @@
+.loginBtn {
+  margin: 5%;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.loginBtn:hover {
+  background-color: black;
+  color: white;
+}
+.logoutBtn{
+  margin: 1%;
+}
